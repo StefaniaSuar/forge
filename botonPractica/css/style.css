@@ -1,0 +1,31 @@
+.uno
+{
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+div
+{
+    padding: 10px;
+}
+
+.dos{
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.tres
+{
+    border-radius:50%;
+    background-color: coral;
+    border-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}

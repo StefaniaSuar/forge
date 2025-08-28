@@ -1,0 +1,31 @@
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    outline: 1px solid black;
+    color:rgb(218, 112, 214);
+    text-align: left; 
+}
+
+.verde{ 
+    background-color: rebeccapurple;
+}
+
+.hola{
+    color: white;
+    text-align: left;
+    
+}
+
+#titulo{
+    color: black;
+    text-decoration: line-through;
+    font-family: sans-serif;
+    
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}

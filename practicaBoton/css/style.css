@@ -1,0 +1,37 @@
+/.green{
+    background-color: aqua;
+    text-align: left;
+}
+.azul{
+    background-color: red;
+    text-align: right;
+}
+
+.pink{
+    background-color: blue;
+    text-align: center;
+    overflow: auto;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 450px;
+    text-decoration: underline;
+    
+}
+
+.box {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* Centra texto horizontal */
+    align-items: center; /* Centra texto vertical */
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;-radius: 5px;
+    }
