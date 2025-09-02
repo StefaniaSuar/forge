@@ -1,0 +1,46 @@
+body {
+    width: 850px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: crimson;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between; /* empuja todo al costado */
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    
+
+}
+
+.nav-links li {
+    margin-right: 30px;
+    
+
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.nav-links li a:hover {
+
+
+}
