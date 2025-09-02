@@ -1,0 +1,45 @@
+.contenedor {
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.cont1 {
+    background-color: #16BBD0;
+    flex: 0.2;
+    height: 150px;
+    width: 100%;
+    
+    
+}
+
+.cont2{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    
+}
+
+img {
+    height: 200px;
+    border-radius: 50% ; 
+    border-color: white;
+    border: 6px solid white; 
+}
+
+p {
+    color: #666666;
+    width: 770px;
+}
+
+button {
+    color: black;
+    background-color: lightgray;
+    border-color: lightgrey;
+    height: 40px;
+}
