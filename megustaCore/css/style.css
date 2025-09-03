@@ -59,10 +59,11 @@
 }
 
 .post {
-  border: 2px solid #ccc;
+  border: 2px solid #000000;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 15px;
+  background-color: rgb(235, 230, 230);
 }
 
 .posthead{
