@@ -1,20 +1,23 @@
-document.addEventListener('DOMContentLoaded', () => {
-  let likesPost1 = 0;
-  let likesPost2 = 0;
-  let likesPost3 = 0;
+// JavaScript
+let likesPost1 = document.querySelector("#likes1");
+let likesPost2 = document.querySelector("#likes2");
+let likesPost3 = document.querySelector("#likes3");
 
-  document.getElementById('btn1').onclick = () => {
-    likesPost1++;
-    document.getElementById('likes1').textContent = likesPost1 + ' like(s)';
-  };
+let cont1 = 0;
+let cont2 = 0;
+let cont3 = 0;
 
-  document.getElementById('btn2').onclick = () => {
-    likesPost2++;
-    document.getElementById('likes2').textContent = likesPost2 + ' like(s)';
-  };
+function contador1(){
+  cont1++;
+  likesPost1.innerText = cont1 + " like(s)";
+}
 
-  document.getElementById('btn3').onclick = () => {
-    likesPost3++;
-    document.getElementById('likes3').textContent = likesPost3 + ' like(s)';
-  };
-});
+function contador2(){
+  cont2++;
+  likesPost2.innerText = cont2 + " like(s)";
+}
+
+function contador3(){
+  cont3++;
+  likesPost3.innerText = cont3 + " like(s)";
+}
